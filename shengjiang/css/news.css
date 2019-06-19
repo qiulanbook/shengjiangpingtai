@@ -133,11 +133,11 @@
 }
 .bottom{
 	height: 30px;
+	line-height: 30px;
 	width: 1068px;
 	padding-left: 25px;
 	background-color: #EEEEEE;
     margin-top: 56px;
-	/* margin-left: 24px; */
 	margin-bottom: 163px;	
 }
 .bottom span:first-child{

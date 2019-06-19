@@ -1,14 +1,30 @@
-/*.one{
+html,body {height:100%;overflow:auto;margin: 0;}
+.nav{
 	height: 63px;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	-webkit-transform: translateZ(0);
 	width: 100%;
-	border: 1px black solid;
-}*/
+	z-index: 1000;
+}
+/*/*fixed定位*/
+ /*.top,.title,.content{ display:block; width:100%; }
+ .top{ height:200px; background:pink; }
+ .title{ height:100px; background:green; }
+.content{ height:150%; background:#aaf; }
+.fixed_top{ position:fixed; top:0; left:0; }*/
+
 .daohang{
+	position: relative;
 	height: 63px;
 	width: 1142px;
 	margin: 0px auto;
 	border: 0px black solid;
-	position: relative;
+	background-color: #fff;
 }
 .daohang a{
 	display: inline-block;

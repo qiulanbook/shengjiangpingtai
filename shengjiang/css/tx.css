@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-16 17:49:22
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-18 14:06:45
+* @Last Modified time: 2019-06-19 16:40:04
 */
 .gWidth{
 	width: 1138px;
@@ -38,10 +38,11 @@
 	top: 0;
 	background: rgba(255,255,0,0);
 	transform: translateX(-335px);
+	transition: .35s;
 }
 
 .oo_in:hover .oo_in_bac{
-	background: rgba(255,255,0,.4);
+	background: rgba(255,255,0,.6);
 	transform: translateX(0px);
 }
 
@@ -132,6 +133,9 @@
 	padding-top: 12px;
 	height: 448px;
 }
+.car1 a{
+	color: #000;
+}
 .car1 ul{
 	width: 100%;
 	height: 100%;
@@ -183,6 +187,12 @@ li{
 	height: 317px;
 	opacity: 0;
 	
+	-webkit-transition:.35s;
+    -moz-transition:.35s;
+    -ms-transition:.35s;
+    -o-transition:.35s;
+    transition:.35s;
+
 }
 .fencai .ll>div{
 	width: 80%;
@@ -226,7 +236,6 @@ li{
 	height: 120px;
 	line-height: 120px;
 	font-size: 34px;
-	font-weight: 700;
 	text-align: center;
 }
 .add_b_f{
@@ -238,8 +247,14 @@ li{
 	flex:1;
 	line-height: 35px;
 }
+.add_b_f p{
+	font-size: 20px;
+}
 .add_b_s{
 	height: 388px;
+}
+.add_b_s p{
+	font-size: 23px;
 }
 input,textarea{
 	border: none;
@@ -254,6 +269,9 @@ input,textarea{
 	margin-bottom: 56px;
 	padding-left: 12px;
 	border-bottom: 1px solid #D2D2D2;
+}
+.add_b_s1{
+	margin-top: 24px;
 }
 .add_b_s textarea{
 	height: 134px;
