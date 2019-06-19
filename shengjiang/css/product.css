@@ -1,0 +1,100 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-06-15 14:51:31
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-06-15 16:38:25
+*/
+.gWidth{
+	width: 1143px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.content{
+	height: 941px;
+	padding-top: 76px;
+}
+
+.con{
+	height: 919px;
+}
+.active{
+	background-color: #FED325;
+	color: #fff;
+}
+.con_t{
+	height: 137px;
+	line-height: 137px;
+	font-size: 34px;
+	text-align: center;
+}
+.con_b{
+	height: 782px;
+}
+/*.con_b_l*/
+.con_b_l{
+	height: 658px;
+	width: 286px;
+	border: 2px solid #EEEEEE;
+}
+.con_b_l li{
+	width: 263px;
+	height: 59px;
+	line-height: 59px;
+	cursor: default;
+	padding-left: 23px;
+	border-bottom: 1px solid #EEEEEE;
+}
+.con_b_l li:nth-child(1){
+	height: 63px;
+}
+.con_b_l li:last-child{
+	border-bottom: none;
+}
+/*con_b_r*/
+.con_b_r{
+	width: 827px;
+	height: 695px;
+	overflow: hidden;
+}
+.con_b_r>li{
+	width: 100%;
+	height: 100%;
+}
+.con_b_r>li>ul{
+	width: 100%;
+	height: 100%;
+}
+.con_b_r>li>ul>li{
+	width: 385px;
+	height: 345px;
+	float: left;
+}
+.con_b_r>li>ul>li:nth-child(1){
+	margin-right: 55px;
+}
+.con_b_r>li>ul>li:nth-child(3){
+	margin-right: 55px;
+}
+.con_b_r img{
+	width: 100%;
+	height: 281px;
+}
+.con_b_r p{
+	height: 64px;
+	line-height: 64px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 700;
+}
+/*banner*/
+.banner{
+	height: 190px;
+	line-height: 190px;
+	background-color: #999999;
+	font-size: 46px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+

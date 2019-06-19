@@ -1,0 +1,64 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-03-05 13:22:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-06-18 17:29:19
+*/
+/*.box>div直接相邻*/
+body{
+	font-family: '微软雅黑';
+}
+@charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{border: none; vertical-align: top;}
+a{text-decoration: none;}
+strong{font-weight:normal;}/*清除加粗*/	
+em{font-style: normal;}/*清除斜体*/
+input{border:none;outline:none;}/*清除 聚焦*/
+textarea{resize: none;border:none;outline:none;}/*清除右下角小尾巴*/
+
+
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+
+/*.gWidth{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.cont{
+	height: 22px;
+	font-size: 17px;
+	color: #2C2527;
+}
+.cont a{
+	font-size: 17px;
+	color: #2C2527;
+}
+.cont1{
+	margin-top: 76px;
+}
+.cont2{
+	/* margin-top: 76px; */
+	margin-bottom: 50px;
+}
+.co{
+	height: 148px;
+	line-height: 148px;
+	background: #F2F2F2;
+}
+
+
+	
+
+
+		/*重置样式表  清除默认样式*/
+

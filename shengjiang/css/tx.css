@@ -1,0 +1,279 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-06-16 17:49:22
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-06-18 14:06:45
+*/
+.gWidth{
+	width: 1138px;
+	margin-left: auto;
+	margin-right: auto;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.fl{
+	float: left;
+}
+.oo_in{
+	position: relative;
+	width: 335px;
+	height: 399px;
+	overflow: hidden;
+}
+.oo_in img{
+	width: 100%;
+	height: 100%;
+}
+.oo_in_bac{
+	width: 335px;
+	height: 399px;
+	line-height: 339px;
+	text-align: center;
+	font-size: 29px;
+	font-weight: 700;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(255,255,0,0);
+	transform: translateX(-335px);
+}
+
+.oo_in:hover .oo_in_bac{
+	background: rgba(255,255,0,.4);
+	transform: translateX(0px);
+}
+
+/*我们的优势*/
+.ys_in{
+	width: 293px;
+	height: 441px;
+	position: relative;
+}
+.ys_tran{
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	line-height: 441px;
+	text-align: center;
+	background-color: #FED325;
+	opacity: 0;
+	transform-style: preserve-3d;
+	transition: .35s;
+	transform: rotateY(90deg);
+	transform-origin:center center;
+
+}
+.ys_in:hover .ys_tran{
+	opacity: 1;
+	transform: rotateY(0);
+}
+/*产品案例*/
+.pt{
+	
+}
+.pt_in{
+	position: relative;
+	width: 364px;
+	height: 252px;
+	cursor: default;	
+}
+.pt_in img{
+	width: 100%;
+	height: 100%;
+}
+.pt_in_po{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(135, 14, 248,0);
+	color:transparent;
+	padding-top: 52px;
+	padding-left: 32px;
+	padding-right: 32px;
+	transition: .35s;
+}
+.pt_in_po h2{
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 68px;
+}
+.pt_in:hover .pt_in_po{
+	background: rgba(252, 249, 255,.3);
+	color: #fff;
+}
+.pt_in_po p{
+	font-size: 14px;
+	line-height: 24px;
+}
+/*新闻动态*/
+.car3{
+	width: 717px;
+	height: 476px;
+	overflow: hidden;
+}
+.car3_in{
+	width: 100%;
+	height: 100%;
+}
+.car3_in img{
+	width: 100%;
+	height: 100%;
+}
+.car1{
+	width: 383px;
+	padding-top: 12px;
+	height: 448px;
+}
+.car1 ul{
+	width: 100%;
+	height: 100%;
+}
+.car1 ul li{
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px;
+}
+.car1 img{
+	width: 100px;
+	height: 100px;
+}
+.car1 li div:first-child{
+	float: left;
+}
+.car1 li div:last-child{
+	float: right;
+	width: 262px;
+	height: 100%;
+	font-size: 13px;
+	line-height: 25px;
+}
+li{
+	list-style: none;
+}
+/*风采图库*/
+.zhh{
+	text-align: center;
+}
+.zs{
+	margin-bottom: 52px;
+}
+.fencai  ul{
+	height: 634px;
+}
+.fencai  ul li{
+	width: 25%;
+	height: 317px;
+	float: left;
+	position: relative;
+}
+.ll{
+	width: 100%;
+	background-color:rgba(0,0,0,.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 317px;
+	opacity: 0;
+	
+}
+.fencai .ll>div{
+	width: 80%;
+	height: 80%;
+	border: 2px solid #fff;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+}
+.fencai .ll>div span{
+	display: inline-block;
+	margin-top: 119px;
+
+}
+.fencai li div{
+	width: 100%;
+	height: 100%;
+}
+.fencai  ul li img{
+	width: 100%;
+	height: 100%;
+}
+.zhh{
+	cursor: pointer;
+}
+.btm{
+	height: 634px;
+	overflow: hidden;
+}
+.btm li:hover .ll{
+	opacity: 1;
+}
+/*联系我们*/
+.add{
+	height: 655px;
+}
+.add_t{
+	height: 120px;
+	line-height: 120px;
+	font-size: 34px;
+	font-weight: 700;
+	text-align: center;
+}
+.add_b_f{
+	height: 91px;
+	display: flex;
+}
+.add_b_f li{
+	float: left;
+	flex:1;
+	line-height: 35px;
+}
+.add_b_s{
+	height: 388px;
+}
+input,textarea{
+	border: none;
+}
+.add_b_s h1{
+	height: 70px;
+	line-height: 60px;
+}
+.add_b_s input{
+	width: 550px;
+	height: 31px;
+	margin-bottom: 56px;
+	padding-left: 12px;
+	border-bottom: 1px solid #D2D2D2;
+}
+.add_b_s textarea{
+	height: 134px;
+	width: 100%;
+	padding-top: 4px;
+	padding-left: 12px;
+	border-bottom: 1px solid #D2D2D2;
+}
+.add_b_t{
+	margin-top: 70px;
+	width: 157px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	color: #fff;
+	background-color: #FED325;
+	font-size: 17px;
+	cursor: pointer;
+
+}
+.ten{
+	margin-top: 90px;
+}
