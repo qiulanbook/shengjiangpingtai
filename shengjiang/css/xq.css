@@ -77,7 +77,6 @@
 	line-height: 63px;
 	text-align: center;
 }
-
 .two{
 	
 	width: 100%;
@@ -122,8 +121,6 @@
 	margin-top: 70px;
 }
 .bg{
-	/*width: 1058px;*/
-	/*height: 142px;*/
 	margin: 0px auto;
 	margin-top: 51px;
 	width: 1140px;
@@ -140,16 +137,6 @@ word-break: break-all;
  word-wrap:break-word;"
  
 } 
-/*table tr td:nth-child(2){
-	width: 70px;
-}
-table tr td:nth-child(3){
-	width: 70px;
-}
-
-table tr td:nth-child(8){
-	width: 70px;
-}*/
 td{
 	text-align: center;
 }

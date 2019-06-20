@@ -11,12 +11,6 @@ html,body {height:100%;overflow:auto;margin: 0;}
 	width: 100%;
 	z-index: 1000;
 }
-/*/*fixed定位*/
- /*.top,.title,.content{ display:block; width:100%; }
- .top{ height:200px; background:pink; }
- .title{ height:100px; background:green; }
-.content{ height:150%; background:#aaf; }
-.fixed_top{ position:fixed; top:0; left:0; }*/
 
 .daohang{
 	position: relative;
@@ -192,14 +186,12 @@ html,body {height:100%;overflow:auto;margin: 0;}
 	height: 252px;
 	margin:  0px auto;
 	border: 0px black solid;
-	/*margin-top: 50px;*/
 }
 .title1{
 	height: 139px;
 	line-height: 139px;
 	font-size: 32px;
 	text-align: center;
-
 }
 .car{
 	
@@ -292,13 +284,10 @@ html,body {height:100%;overflow:auto;margin: 0;}
 	border: 0px black solid;
 	margin-top: 52px;
 }
-
-//wi
 .zs span{
 	display: inline-block;
 	height: 39px;
-	line-height: 39px;
-	
+	line-height: 39px;	
 }
 .nr{
 	height: 622px;

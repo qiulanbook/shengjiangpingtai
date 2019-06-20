@@ -184,9 +184,7 @@ li{
 	position: absolute;
 	left: 0;
 	top: 0;
-
 	opacity: 0;
-	
 	-webkit-transition:.35s;
     -moz-transition:.35s;
     -ms-transition:.35s;

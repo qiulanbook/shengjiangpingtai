@@ -272,19 +272,16 @@
 }
 .tb{
 	margin-top: 14px;
-	/* height: 26px; */
 }
 /*banner*/
 .banner{
 	height: 190px;
 	line-height: 190px;
-	/* background-color: #999999; */
 	font-size: 46px;
 	color: #fff;
 	font-weight: bold;
 	text-align: center;
 	background: url(../img/banner.jpg) no-repeat center center;
-
 }
 .banner div{
 	width: 100%;
