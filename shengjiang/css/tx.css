@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-16 17:49:22
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-19 16:40:04
+* @Last Modified time: 2019-06-19 17:33:27
 */
 .gWidth{
 	width: 1138px;
@@ -184,7 +184,7 @@ li{
 	position: absolute;
 	left: 0;
 	top: 0;
-	height: 317px;
+
 	opacity: 0;
 	
 	-webkit-transition:.35s;
@@ -194,27 +194,25 @@ li{
     transition:.35s;
 
 }
-.fencai .ll>div{
+.btm .ll>div{
 	width: 80%;
 	height: 80%;
 	border: 2px solid #fff;
-	margin-top: 30px;
-	margin-left: auto;
-	margin-right: auto;
+	margin:10%;
 	color: #fff;
 	text-align: center;
 	font-size: 22px;
 }
-.fencai .ll>div span{
+.btm .ll>div span{
 	display: inline-block;
 	margin-top: 119px;
 
 }
-.fencai li div{
+.btm li div{
 	width: 100%;
 	height: 100%;
 }
-.fencai  ul li img{
+.btm  ul li img{
 	width: 100%;
 	height: 100%;
 }
